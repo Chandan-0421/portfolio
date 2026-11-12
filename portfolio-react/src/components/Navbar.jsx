@@ -200,8 +200,6 @@ export default function Navbar() {
           <a
             href={PROFILE.resume}
             download={PROFILE.resumeDownloadName}
-            target="_blank"
-            rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-4 py-2 text-[13px] font-semibold text-white bg-zinc-900 dark:bg-white dark:text-zinc-900 rounded-full hover:scale-105 transition-transform duration-300 shadow-sm ml-1"
           >
             <DownloadIcon className="w-3.5 h-3.5" />

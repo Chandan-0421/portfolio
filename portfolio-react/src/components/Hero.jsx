@@ -113,8 +113,6 @@ export default function Hero() {
             <a
               href={PROFILE.resume}
               download={PROFILE.resumeDownloadName}
-              target="_blank"
-              rel="noopener noreferrer"
               className="glass-btn px-8 py-3.5 rounded-full text-zinc-900 dark:text-white text-[15px] font-medium flex items-center justify-center gap-2 w-full sm:w-auto"
             >
               <DownloadIcon />
